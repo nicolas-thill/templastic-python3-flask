@@ -14,6 +14,6 @@ A repository template for Flask projects using Docker & Python 3
 * Install Python3 venv: `sudo apt-get install python3-venv`
 * Configure a virtual Python 3 env: `python3 -m venv env`
 * Enter virtual env: `source env/bin/activate`
-* Install modules: `pip install ...`
+* Install modules: `pip install Flask`
 * Generate requirements: `pip freeze > src/requirements.txt`
 * Leave virtual env: `deactivate`
