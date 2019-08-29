@@ -8,6 +8,7 @@ A repository template for Flask projects using Docker & Python 3
 * Install docker-compose: https://docs.docker.com/compose/install/
 * Build the docker image: `./docker-compose.sh build`
 * Start the stack: `./docker-compose.sh up`
+* Your server is accessible at http://localhost/
 
 ## Notes
 

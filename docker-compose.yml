@@ -4,8 +4,12 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
-    command: ["./run.py"]
+    environment:
+      - FLASK_APP=my_app.py
+    command: ["flask", "run", "--host=0.0.0.0", "--port=80"]
     image: templastic/python3-flask
     restart: unless-stopped
+    ports:
+      - "80:80"
     volumes:
       - ./src:/app
