@@ -1,0 +1,10 @@
+version: '2'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: templastic/base
+    restart: unless-stopped
+    volumes:
+      - ./src:/app
