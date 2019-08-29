@@ -1,6 +1,6 @@
-# templastic-base
+# templastic-python3
 
-A repository template for projects using Docker
+A repository template for Python projects using Docker & Python 3
 
 ## Setup
 
