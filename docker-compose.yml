@@ -6,6 +6,8 @@ services:
       dockerfile: ./Dockerfile
     environment:
       - FLASK_APP=my_app.py
+      - LC_ALL=C.UTF-8
+      - LANG=C.UTF-8
     command: ["flask", "run", "--host=0.0.0.0", "--port=80"]
     image: templastic/python3-flask
     restart: unless-stopped
